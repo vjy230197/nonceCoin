@@ -1,0 +1,31 @@
+.input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.serach_warpper {
+  .scroll_search {
+    width: 100%;
+    border: none;
+    outline: none;
+    line-height: 26px;
+    padding: 8px;
+    border: 1px solid black;
+    transition: background-color 0.2s cubic-bezier(0.05, 0, 0.2, 1) 0s,
+      border-color 0.2s cubic-bezier(0.05, 0, 0.2, 1) 0s;
+  }
+  .search {
+    width: 100%;
+    line-height: 26px;
+    padding: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.12);
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    transition: background-color 0.2s cubic-bezier(0.05, 0, 0.2, 1) 0s,
+      border-color 0.2s cubic-bezier(0.05, 0, 0.2, 1) 0s;
+  }
+}
